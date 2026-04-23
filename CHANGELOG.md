@@ -1,11 +1,18 @@
-﻿# Changelog
+# Changelog
 
-すべての重要かつユーザーに向けた変更はこのファイルに記録されます。
+All notable changes to this project will be documented in this file.
 
-## [v1.0.0] - 2026-03-28
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-### Initial Release (初期リリース)
-以下のコミット履歴を含む最初のバージョン（ベースライン）です。
+## [1.1.0] - 2026-04-23
 
-- b54bf6f Updates
+### Changed
+- Standardized README.md with premium design and clear shift scheduling workflow.
+- Cleaned up repository by removing redundant `Project_Summary.md`.
+- Updated documentation for shift-related prompt engineering.
 
+## [1.0.0] - 2026-03-22
+
+### Added
+- Initial release of Shift Prompt Generator utility.
