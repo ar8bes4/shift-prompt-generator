@@ -17,8 +17,7 @@ Error generating stack: `+e.message+`
 - 割合の目安: 4名で概ね均等
 - ICU当直/日直: 割当日は電話待機を【必ず兼任】する。前日および翌日に割り当てても【よい】。
 - 外科当直/日直: 割当日は電話待機を【必ず兼任】する。前日および翌日には割り当てては【いけない】。
-- 連続アサイン: 土日などの連続した休日は、できる限り「同一人物が連続して担当」するように配置すること。泉は必ず連続させる
-- 土日休日に新村が当番の日には服部または大野を2ndとして割り当てる`,p=[{name:`大野`,request:``},{name:`服部`,request:``},{name:`新村`,request:``},{name:`泉`,request:``}],m=new Date().getFullYear(),h=Array.from({length:7},(e,t)=>m-3+t),g=Array.from({length:12},(e,t)=>t+1);function _(){let[e,t]=(0,l.useState)(2026),[n,r]=(0,l.useState)(5),[i,a]=(0,l.useState)(``),[o,s]=(0,l.useState)(p),[c,u]=(0,l.useState)(f),[m,_]=(0,l.useState)(!1),v=()=>{let t=i.trim();return t===``?`${e}年${n}月`:/^\d{4}[年\/]/.test(t)?t:`${e}年${t}`},y=()=>o.filter(e=>e.name.trim()!==``).map((e,t)=>{let n=e.request.trim()?e.request.split(`
+- 連続アサイン: 土日などの連続した休日は、できる限り「同一人物が連続して担当」するように配置すること。泉は必ず連続させる`,p=[{name:`大野`,request:``},{name:`服部`,request:``},{name:`新村`,request:``},{name:`泉`,request:``}],m=new Date().getFullYear(),h=Array.from({length:7},(e,t)=>m-3+t),g=Array.from({length:12},(e,t)=>t+1);function _(){let[e,t]=(0,l.useState)(2026),[n,r]=(0,l.useState)(5),[i,a]=(0,l.useState)(``),[o,s]=(0,l.useState)(p),[c,u]=(0,l.useState)(f),[m,_]=(0,l.useState)(!1),v=()=>{let t=i.trim();return t===``?`${e}年${n}月`:/^\d{4}[年\/]/.test(t)?t:`${e}年${t}`},y=()=>o.filter(e=>e.name.trim()!==``).map((e,t)=>{let n=e.request.trim()?e.request.split(`
 `).map(e=>`   ${e}`).join(`
 `):`   - 特になし`;return`${t+1}. ${e.name}:\n${n}`}).join(`
 `),b=()=>{let e=v();return`あなたは医療現場の高度なシフト作成を支援する専門AIアシスタントです。
