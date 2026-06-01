@@ -1,0 +1,67 @@
+{
+  "output": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\当直表作成ツール_使用方法.pptx",
+  "outputBytes": 28465,
+  "slideCount": 5,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\preview",
+  "previewPaths": [
+    "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\preview\\slide-01.png",
+    "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\preview\\slide-02.png",
+    "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\preview\\slide-03.png",
+    "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\preview\\slide-04.png",
+    "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\preview\\slide-05.png"
+  ],
+  "layoutDir": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\layout\\final",
+  "layoutResults": [
+    {
+      "layoutPath": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\layout\\final\\slide-01.layout.json"
+    },
+    {
+      "layoutPath": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\layout\\final\\slide-02.layout.json"
+    },
+    {
+      "layoutPath": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\layout\\final\\slide-03.layout.json"
+    },
+    {
+      "layoutPath": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\layout\\final\\slide-04.layout.json"
+    },
+    {
+      "layoutPath": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\layout\\final\\slide-05.layout.json"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\slides\\slide-01.mjs",
+      "exportName": "slide01"
+    },
+    {
+      "index": 2,
+      "requestedSlideNumber": 2,
+      "modulePath": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\slides\\slide-02.mjs",
+      "exportName": "slide02"
+    },
+    {
+      "index": 3,
+      "requestedSlideNumber": 3,
+      "modulePath": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\slides\\slide-03.mjs",
+      "exportName": "slide03"
+    },
+    {
+      "index": 4,
+      "requestedSlideNumber": 4,
+      "modulePath": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\slides\\slide-04.mjs",
+      "exportName": "slide04"
+    },
+    {
+      "index": 5,
+      "requestedSlideNumber": 5,
+      "modulePath": "C:\\Users\\yert1\\Documents\\agy\\30_Shift\\shift-prompt-generator\\outputs\\manual-usage-ppt\\presentations\\shift-usage\\slides\\slide-05.mjs",
+      "exportName": "slide05"
+    }
+  ]
+}

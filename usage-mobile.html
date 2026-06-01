@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>当直表作成ツール スマホ用案内</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #1f2933;
+        --muted: #5f6f7f;
+        --line: #d9e2ec;
+        --paper: #f6f8fb;
+        --panel: #ffffff;
+        --accent: #1f7a8c;
+        --accent-deep: #155e75;
+        --soft: #e8f4f7;
+        --notice: #fff3cd;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, system-ui, sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+        line-height: 1.75;
+      }
+
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 18px 14px 40px;
+      }
+
+      section {
+        margin: 0 0 16px;
+        padding: 22px 18px;
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: 0 10px 28px rgba(31, 41, 51, 0.07);
+      }
+
+      .hero {
+        padding-top: 30px;
+      }
+
+      .eyebrow {
+        margin: 0 0 8px;
+        color: var(--accent-deep);
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        margin-bottom: 14px;
+        font-size: 30px;
+        line-height: 1.28;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin-bottom: 14px;
+        font-size: 23px;
+        line-height: 1.35;
+        letter-spacing: 0;
+      }
+
+      h3 {
+        margin-bottom: 4px;
+        font-size: 18px;
+        line-height: 1.45;
+      }
+
+      p {
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 16px;
+      }
+
+      .lead {
+        color: var(--ink);
+        font-size: 17px;
+      }
+
+      .button-link {
+        display: block;
+        width: 100%;
+        margin-top: 18px;
+        padding: 14px 16px;
+        border-radius: 8px;
+        background: var(--accent);
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .url {
+        margin-top: 10px;
+        color: var(--accent-deep);
+        font-size: 14px;
+        overflow-wrap: anywhere;
+      }
+
+      .notice {
+        margin-top: 14px;
+        padding: 14px;
+        background: var(--notice);
+        border: 1px solid #f1d27a;
+        border-radius: 8px;
+        color: #654d03;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .item-list {
+        display: grid;
+        gap: 10px;
+        margin-top: 12px;
+      }
+
+      .item {
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fbfdff;
+      }
+
+      .item p {
+        font-size: 15px;
+      }
+
+      .step-list {
+        display: grid;
+        gap: 12px;
+        margin-top: 14px;
+      }
+
+      .step {
+        display: grid;
+        grid-template-columns: 42px 1fr;
+        gap: 12px;
+        align-items: start;
+      }
+
+      .num {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        background: var(--accent);
+        color: #ffffff;
+        font-weight: 800;
+      }
+
+      .info-row {
+        display: grid;
+        gap: 6px;
+        padding: 13px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .info-row:first-of-type {
+        border-top: 0;
+        padding-top: 0;
+      }
+
+      .label {
+        color: var(--accent-deep);
+        font-weight: 700;
+      }
+
+      .sample {
+        margin-top: 14px;
+        padding: 14px;
+        border-radius: 8px;
+        background: #111827;
+        color: #f9fafb;
+        font-family: Consolas, "Yu Gothic", monospace;
+        font-size: 14px;
+        line-height: 1.65;
+        white-space: pre-wrap;
+        overflow-x: auto;
+      }
+
+      .footer-note {
+        padding: 0 4px;
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+      }
+
+      @media (min-width: 640px) {
+        main {
+          padding-top: 28px;
+        }
+
+        section {
+          padding: 28px;
+        }
+
+        h1 {
+          font-size: 38px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <p class="eyebrow">当直表作成ツール スマホ用案内</p>
+        <h1>希望シフトを集めて、AI用プロンプトを作成します</h1>
+        <p class="lead">
+          メンバーから集めた希望をツールに入力し、当直表作成用のプロンプトを作ります。完成品は、表形式のテキストをそのまま納品すれば大丈夫です。
+        </p>
+        <a class="button-link" href="https://ar8bes4.github.io/shift-prompt-generator/" target="_blank" rel="noopener noreferrer">
+          ツールを開く
+        </a>
+        <p class="url">https://ar8bes4.github.io/shift-prompt-generator/</p>
+      </section>
+
+      <section>
+        <h2>まず覚えておくこと</h2>
+        <div class="item-list">
+          <div class="item">
+            <h3>希望聴取の目安</h3>
+            <p>当直発表後、1週間を目処にメンバーへ希望提出を依頼します。</p>
+          </div>
+          <div class="item">
+            <h3>提出形式</h3>
+            <p>箇条書きやメモ形式で問題ありません。不可日、希望日、できれば避けたい日が分かるように書いてもらいます。</p>
+          </div>
+          <div class="item">
+            <h3>納品形式</h3>
+            <p>最終的な当直表は、Markdownなどの表形式テキストをそのまま提出すれば問題ありません。</p>
+          </div>
+        </div>
+        <div class="notice">「絶対不可」と「できれば避けたい」は分けて回収すると、調整しやすくなります。</div>
+      </section>
+
+      <section>
+        <h2>メンバーに依頼する内容</h2>
+        <div class="info-row">
+          <div class="label">回収タイミング</div>
+          <p>当直発表後、1週間を目処に回収します。</p>
+        </div>
+        <div class="info-row">
+          <div class="label">書いてほしい内容</div>
+          <p>不可日、希望日、避けたい日、連続勤務に関する希望、その他配慮が必要な予定。</p>
+        </div>
+        <div class="info-row">
+          <div class="label">提出例</div>
+          <p>氏名ごとに、日付と希望内容が分かれば十分です。</p>
+        </div>
+        <div class="sample">山田
+- 不可: 5/2, 5/3, 5/10
+- 希望: 5/15
+- できれば避けたい: 5/20以降の連続当番</div>
+      </section>
+
+      <section>
+        <h2>作成担当者の手順</h2>
+        <div class="step-list">
+          <div class="step">
+            <div class="num">1</div>
+            <div>
+              <h3>ツールを開く</h3>
+              <p>上のリンクからGitHub Pagesのツールを開きます。インストールは不要です。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="num">2</div>
+            <div>
+              <h3>対象期間を指定する</h3>
+              <p>年・月を選ぶか、「5/7-5/31」のように自由入力します。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="num">3</div>
+            <div>
+              <h3>各メンバーの希望を入力する</h3>
+              <p>氏名と希望内容を入力します。回収したメモをそのまま貼り付けて構いません。</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="num">4</div>
+            <div>
+              <h3>プロンプトをコピーする</h3>
+              <p>生成されたプロンプトをコピーし、GeminiなどのAIに貼り付けて当直表を作成します。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>納品時の確認</h2>
+        <div class="info-row">
+          <div class="label">納品物</div>
+          <p>日付、曜日、担当者、付記が分かる当直表。</p>
+        </div>
+        <div class="info-row">
+          <div class="label">確認ポイント</div>
+          <p>不可日に割当がないこと、平日・休日のルールが守られていること、担当の偏りが大きすぎないこと。</p>
+        </div>
+        <div class="info-row">
+          <div class="label">注意</div>
+          <p>AIの出力は最終決定ではありません。担当者が確認してから共有します。</p>
+        </div>
+        <div class="sample">| 日付 | 曜日 | 担当者 | 付記 |
+|---|---|---|---|
+| 5/7 | 水 | 山田 |  |
+| 5/8 | 木 | 佐藤 | ICU当直あり |</div>
+      </section>
+
+      <p class="footer-note">この案内はスマホ閲覧向けの縦長HTMLです。</p>
+    </main>
+  </body>
+</html>

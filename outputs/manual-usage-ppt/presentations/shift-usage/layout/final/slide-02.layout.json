@@ -1,0 +1,1001 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/dso7eq",
+    "id": "dso7eq",
+    "slide": 2,
+    "layoutId": "a8a85ee4-6061-4832-9f3d-2d8bf566a182",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "93f93f5f-0bbd-434e-a980-33b5ff2affd6",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Display"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "a8a85ee4-6061-4832-9f3d-2d8bf566a182",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "93f93f5f-0bbd-434e-a980-33b5ff2affd6",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "93f93f5f-0bbd-434e-a980-33b5ff2affd6",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7F9FC",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "2",
+      "bbox": [
+        56,
+        48,
+        1168,
+        624
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8DEE8",
+      "lineWidth": 1
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "3",
+      "bbox": [
+        88,
+        74,
+        360,
+        28
+      ],
+      "geometry": "rect",
+      "text": "全体像",
+      "textPreview": "全体像",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#155E75",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "全体像"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "全体像",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#155E75",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "全体像",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#155E75",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "4",
+      "bbox": [
+        88,
+        112,
+        900,
+        92
+      ],
+      "geometry": "rect",
+      "text": "このツールで行うこと",
+      "textPreview": "このツールで行うこと",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 38,
+        "typeface": "Aptos Display",
+        "color": "#1F2933",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "このツールで行うこと"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "このツールで行うこと",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "typeface": "Aptos Display",
+            "color": "#1F2933",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "このツールで行うこと",
+              "fontSize": 38,
+              "typeface": "Aptos Display",
+              "color": "#1F2933",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "5",
+      "bbox": [
+        96,
+        238,
+        480,
+        130
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBFCFE",
+      "lineColor": "#D8DEE8",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "6",
+      "bbox": [
+        118,
+        256,
+        436,
+        30
+      ],
+      "geometry": "rect",
+      "text": "希望を整理する",
+      "textPreview": "希望を整理する",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Aptos",
+        "color": "#155E75",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "希望を整理する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "希望を整理する",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Aptos",
+            "color": "#155E75",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "希望を整理する",
+              "fontSize": 21,
+              "typeface": "Aptos",
+              "color": "#155E75",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za1gvy90",
+      "id": "7",
+      "bbox": [
+        118,
+        296,
+        436,
+        54
+      ],
+      "geometry": "rect",
+      "text": "各メンバーの不可日、希望日、避けたい日などを入力します。自然な書き方のメモでも扱えます。",
+      "textPreview": "各メンバーの不可日、希望日、避けたい日などを入力します。自然な書き方のメモでも扱えます。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#5B6777",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "各メンバーの不可日、希望日、避けたい日などを入力します。自然な"
+          },
+          {
+            "index": 2,
+            "text": "書き方のメモでも扱えます。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "各メンバーの不可日、希望日、避けたい日などを入力します。自然な書き方のメモでも扱えます。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#5B6777",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "各メンバーの不可日、希望日、避けたい日などを入力します。自然な書き方のメモでも扱えます。",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#5B6777"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sji5snel",
+      "id": "8",
+      "bbox": [
+        614,
+        238,
+        480,
+        130
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBFCFE",
+      "lineColor": "#D8DEE8",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4byhgn2",
+      "id": "9",
+      "bbox": [
+        636,
+        256,
+        436,
+        30
+      ],
+      "geometry": "rect",
+      "text": "作成期間を指定する",
+      "textPreview": "作成期間を指定する",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Aptos",
+        "color": "#155E75",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "作成期間を指定する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "作成期間を指定する",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Aptos",
+            "color": "#155E75",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "作成期間を指定する",
+              "fontSize": 21,
+              "typeface": "Aptos",
+              "color": "#155E75",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4r65wju",
+      "id": "10",
+      "bbox": [
+        636,
+        296,
+        436,
+        54
+      ],
+      "geometry": "rect",
+      "text": "年・月、または「5/7-5/31」のような自由入力で、当直表の対象期間を指定します。",
+      "textPreview": "年・月、または「5/7-5/31」のような自由入力で、当直表の対象期間を指定します。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#5B6777",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "年・月、または「5/7-5/31」のような自由入力で、当直表の対象期間"
+          },
+          {
+            "index": 2,
+            "text": "を指定します。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "年・月、または「5/7-5/31」のような自由入力で、当直表の対象期間を指定します。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#5B6777",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "年・月、または「5/7-5/31」のような自由入力で、当直表の対象期間を指定します。",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#5B6777"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjudg7ad",
+      "id": "11",
+      "bbox": [
+        96,
+        392,
+        480,
+        130
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBFCFE",
+      "lineColor": "#D8DEE8",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y1kre1w",
+      "id": "12",
+      "bbox": [
+        118,
+        410,
+        436,
+        30
+      ],
+      "geometry": "rect",
+      "text": "ルールを確認する",
+      "textPreview": "ルールを確認する",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Aptos",
+        "color": "#155E75",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ルールを確認する"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ルールを確認する",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Aptos",
+            "color": "#155E75",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ルールを確認する",
+              "fontSize": 21,
+              "typeface": "Aptos",
+              "color": "#155E75",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ed8v6psf",
+      "id": "13",
+      "bbox": [
+        118,
+        450,
+        436,
+        54
+      ],
+      "geometry": "rect",
+      "text": "平日・休日の扱い、当直間隔、スキルバランスなど、当直表作成時のルールを入力・調整します。",
+      "textPreview": "平日・休日の扱い、当直間隔、スキルバランスなど、当直表作成時のルールを入力・調整します。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#5B6777",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "平日・休日の扱い、当直間隔、スキルバランスなど、当直表作成時の"
+          },
+          {
+            "index": 2,
+            "text": "ルールを入力・調整します。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "平日・休日の扱い、当直間隔、スキルバランスなど、当直表作成時のルールを入力・調整します。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#5B6777",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "平日・休日の扱い、当直間隔、スキルバランスなど、当直表作成時のルールを入力・調整します。",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#5B6777"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwb2hwfy",
+      "id": "14",
+      "bbox": [
+        614,
+        392,
+        480,
+        130
+      ],
+      "geometry": "rect",
+      "fillColor": "#FBFCFE",
+      "lineColor": "#D8DEE8",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0bi9s36h",
+      "id": "15",
+      "bbox": [
+        636,
+        410,
+        436,
+        30
+      ],
+      "geometry": "rect",
+      "text": "プロンプトをコピーする",
+      "textPreview": "プロンプトをコピーする",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Aptos",
+        "color": "#155E75",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "プロンプトをコピーする"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "プロンプトをコピーする",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Aptos",
+            "color": "#155E75",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "プロンプトをコピーする",
+              "fontSize": 21,
+              "typeface": "Aptos",
+              "color": "#155E75",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qpg3ex0",
+      "id": "16",
+      "bbox": [
+        636,
+        450,
+        436,
+        54
+      ],
+      "geometry": "rect",
+      "text": "生成されたプロンプトをコピーし、GeminiなどのAIに貼り付けて当直表を作成します。",
+      "textPreview": "生成されたプロンプトをコピーし、GeminiなどのAIに貼り付けて当直表を作成します。",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#5B6777",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "生成されたプロンプトをコピーし、GeminiなどのAIに貼り付けて当直表を"
+          },
+          {
+            "index": 2,
+            "text": "作成します。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "生成されたプロンプトをコピーし、GeminiなどのAIに貼り付けて当直表を作成します。",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#5B6777",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "生成されたプロンプトをコピーし、GeminiなどのAIに貼り付けて当直表を作成します。",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#5B6777"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i5sneloj",
+      "id": "17",
+      "bbox": [
+        96,
+        558,
+        998,
+        58
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFF4D6",
+      "lineColor": "#F2D98B",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkzupwb2",
+      "id": "18",
+      "bbox": [
+        122,
+        570,
+        940,
+        34
+      ],
+      "geometry": "rect",
+      "text": "処理はブラウザ内で完結します。入力内容を外部サーバーへ送信する仕組みではありません。",
+      "textPreview": "処理はブラウザ内で完結します。入力内容を外部サーバーへ送信する仕組みではありません。",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "color": "#1F2933",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "処理はブラウザ内で完結します。入力内容を外部サーバーへ送信する仕組みではありません。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "処理はブラウザ内で完結します。入力内容を外部サーバーへ送信する仕組みではありません。",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Aptos",
+            "color": "#1F2933",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "処理はブラウザ内で完結します。入力内容を外部サーバーへ送信する仕組みではありません。",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#1F2933",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0z61032l",
+      "id": "19",
+      "bbox": [
+        88,
+        620,
+        220,
+        24
+      ],
+      "geometry": "rect",
+      "text": "当直表作成ツール 使用方法 / 2 / 5",
+      "textPreview": "当直表作成ツール 使用方法 / 2 / 5",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 12,
+        "typeface": "Aptos",
+        "color": "#5B6777",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "当直表作成ツール 使用方法 / 2 / 5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "当直表作成ツール 使用方法 / 2 / 5",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "typeface": "Aptos",
+            "color": "#5B6777",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "当直表作成ツール 使用方法 / 2 / 5",
+              "fontSize": 12,
+              "typeface": "Aptos",
+              "color": "#5B6777"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
